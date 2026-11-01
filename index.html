@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notre mariage · 8 juillet 2027</title>
+  <meta name="description" content="Toutes les informations de notre mariage du 8 juillet 2027 et le formulaire de réponse.">
+  <meta name="theme-color" content="#F6EFE3">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Pinyon+Script&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" id="nav">
+    <a href="#accueil" class="nav__mark" aria-label="Retour en haut">
+      <!-- ✏️ Initiales du couple -->
+      <span>P</span><em>&amp;</em><span>P</span>
+    </a>
+    <nav class="nav__links" aria-label="Sections">
+      <a href="#programme">Programme</a>
+      <a href="#infos">Infos</a>
+      <a href="#rsvp" class="nav__cta">Répondre</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ ACCUEIL ============ -->
+    <section class="hero" id="accueil">
+      <svg class="curve curve--tl" viewBox="0 0 200 400" aria-hidden="true"><path d="M150 0 C 140 120, 90 170, 40 230 S -10 360, 10 400" /></svg>
+      <svg class="curve curve--br" viewBox="0 0 200 400" aria-hidden="true"><path d="M190 0 C 170 110, 175 200, 140 270 S 60 360, 20 400" /></svg>
+
+      <div class="hero__inner">
+        <p class="eyebrow reveal">Nous nous marions</p>
+
+        <!-- ✏️ Prénoms du couple -->
+        <h1 class="hero__names reveal">
+          <span>Prénom</span>
+          <span class="script">&amp;</span>
+          <span>Prénom</span>
+        </h1>
+
+        <figure class="hero__photo reveal">
+          <img src="assets/couple.jpg" alt="Les futurs mariés, souriants, au soleil couchant" width="864" height="868">
+        </figure>
+
+        <p class="hero__date reveal">08 <i>/</i> 07 <i>/</i> 2027</p>
+        <div class="ornament reveal" aria-hidden="true"><span></span><b></b><span></span></div>
+        <!-- ✏️ Ville -->
+        <p class="hero__place reveal">Paris</p>
+
+        <div class="countdown reveal" id="countdown" aria-live="polite">
+          <div><strong data-cd="d">—</strong><span>jours</span></div>
+          <div><strong data-cd="h">—</strong><span>heures</span></div>
+          <div><strong data-cd="m">—</strong><span>minutes</span></div>
+        </div>
+
+        <a href="#rsvp" class="btn btn--primary reveal">Confirmer ma présence</a>
+      </div>
+    </section>
+
+    <div class="palette-band" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- ============ PROGRAMME ============ -->
+    <section class="section" id="programme">
+      <header class="section__head reveal">
+        <p class="eyebrow">Le programme</p>
+        <h2>Deux jours <span class="script">à vos côtés</span></h2>
+      </header>
+
+      <div class="timeline">
+        <!-- ✏️ Mairie -->
+        <article class="event reveal">
+          <div class="event__num">I</div>
+          <p class="event__day">Jeudi 8 juillet 2027</p>
+          <h3>La Mairie</h3>
+          <p class="event__time">14h30</p>
+          <div class="event__rule"></div>
+          <p class="event__place">Mairie du …<sup>e</sup> arrondissement</p>
+          <p class="event__addr">Adresse à compléter<br>75000 Paris</p>
+          <a class="event__link" href="https://maps.google.com/?q=Mairie+Paris" target="_blank" rel="noopener">Voir l’itinéraire</a>
+        </article>
+
+        <!-- ✏️ Soirée -->
+        <article class="event event--feature reveal">
+          <div class="event__num">II</div>
+          <p class="event__day">Jeudi 8 juillet 2027</p>
+          <h3>La Soirée</h3>
+          <p class="event__time">À partir de 19h00</p>
+          <div class="event__rule"></div>
+          <p class="event__place">Nom du lieu de réception</p>
+          <p class="event__addr">Adresse à compléter<br>Code postal, Ville</p>
+          <p class="event__note">Cocktail, dîner &amp; danse jusqu’au bout de la nuit</p>
+          <a class="event__link" href="https://maps.google.com/" target="_blank" rel="noopener">Voir l’itinéraire</a>
+        </article>
+
+        <!-- ✏️ Brunch -->
+        <article class="event reveal">
+          <div class="event__num">III</div>
+          <p class="event__day">Vendredi 9 juillet 2027</p>
+          <h3>Le Brunch</h3>
+          <p class="event__time">À partir de 11h30</p>
+          <div class="event__rule"></div>
+          <p class="event__place">Nom du lieu</p>
+          <p class="event__addr">Adresse à compléter<br>Code postal, Ville</p>
+          <a class="event__link" href="https://maps.google.com/" target="_blank" rel="noopener">Voir l’itinéraire</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ INFOS PRATIQUES ============ -->
+    <section class="section section--tint" id="infos">
+      <header class="section__head reveal">
+        <p class="eyebrow">Informations pratiques</p>
+        <h2>Pour <span class="script">vous</span> guider</h2>
+      </header>
+
+      <div class="infos">
+        <div class="info reveal">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 34h28M13 34V22l11-8 11 8v12M20 34v-7h8v7"/></svg>
+          <h3>Hébergement</h3>
+          <p>Quelques adresses proches du lieu de réception vous seront communiquées. N’hésitez pas à réserver tôt, juillet est très demandé.</p>
+        </div>
+        <div class="info reveal">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 30h32M12 30l3-9h18l3 9M14 30v5M34 30v5"/><circle cx="16" cy="30" r="0.5"/></svg>
+          <h3>Accès</h3>
+          <p>Le lieu de réception est accessible en voiture (parking sur place) et en transports en commun. Pensez au covoiturage !</p>
+        </div>
+        <div class="info reveal">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 8l-8 6 4 6 3-2v20h14V18l3 2 4-6-8-6c-1 3-4 5-6 5s-5-2-6-5z"/></svg>
+          <h3>Dress code</h3>
+          <p>Tenue de cocktail. Si le cœur vous en dit, inspirez-vous de nos couleurs&nbsp;:</p>
+          <ul class="swatches" aria-label="Couleurs du mariage">
+            <li style="--c:var(--burgundy)" title="Bordeaux"></li>
+            <li style="--c:var(--terracotta)" title="Terracotta"></li>
+            <li style="--c:var(--apricot)" title="Abricot"></li>
+            <li style="--c:var(--peach)" title="Pêche"></li>
+            <li style="--c:var(--ivory)" title="Ivoire"></li>
+          </ul>
+        </div>
+        <div class="info reveal">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 38s-13-8-13-18a7 7 0 0 1 13-3 7 7 0 0 1 13 3c0 10-13 18-13 18z"/></svg>
+          <h3>Liste de mariage</h3>
+          <p>Votre présence est notre plus beau cadeau. Pour ceux qui le souhaitent, une urne sera mise à disposition lors de la soirée.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RSVP ============ -->
+    <section class="section" id="rsvp">
+      <header class="section__head reveal">
+        <p class="eyebrow">Répondez s’il vous plaît</p>
+        <h2>Serez-vous <span class="script">des nôtres</span>&nbsp;?</h2>
+        <!-- ✏️ Date limite de réponse -->
+        <p class="section__lead">Merci de nous répondre avant le <strong>1<sup>er</sup> mai 2027</strong>.</p>
+      </header>
+
+      <form class="rsvp reveal" id="rsvp-form" novalidate>
+        <div class="field-row">
+          <label class="field">
+            <span>Prénom &amp; nom *</span>
+            <input type="text" name="nom" autocomplete="name" required>
+          </label>
+          <label class="field">
+            <span>E-mail *</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+        </div>
+
+        <div class="field-row">
+          <label class="field">
+            <span>Nombre de personnes (vous inclus) *</span>
+            <select name="personnes" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Nom(s) des accompagnants</span>
+            <input type="text" name="accompagnants" placeholder="Facultatif">
+          </label>
+        </div>
+
+        <fieldset class="attend">
+          <legend>Votre présence *</legend>
+
+          <div class="attend__row" data-group="mairie">
+            <div class="attend__label"><strong>La Mairie</strong><small>Jeudi 8 juillet · 14h30</small></div>
+            <div class="choice">
+              <input type="radio" id="mairie-oui" name="mairie" value="Oui" required><label for="mairie-oui">Présent·e</label>
+              <input type="radio" id="mairie-non" name="mairie" value="Non"><label for="mairie-non">Absent·e</label>
+            </div>
+          </div>
+
+          <div class="attend__row" data-group="soiree">
+            <div class="attend__label"><strong>La Soirée</strong><small>Jeudi 8 juillet · 19h00</small></div>
+            <div class="choice">
+              <input type="radio" id="soiree-oui" name="soiree" value="Oui" required><label for="soiree-oui">Présent·e</label>
+              <input type="radio" id="soiree-non" name="soiree" value="Non"><label for="soiree-non">Absent·e</label>
+            </div>
+          </div>
+
+          <div class="attend__row" data-group="brunch">
+            <div class="attend__label"><strong>Le Brunch</strong><small>Vendredi 9 juillet · 11h30</small></div>
+            <div class="choice">
+              <input type="radio" id="brunch-oui" name="brunch" value="Oui" required><label for="brunch-oui">Présent·e</label>
+              <input type="radio" id="brunch-non" name="brunch" value="Non"><label for="brunch-non">Absent·e</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <label class="field">
+          <span>Régime alimentaire / allergies</span>
+          <input type="text" name="regime" placeholder="Végétarien, sans gluten, allergies…">
+        </label>
+
+        <label class="field">
+          <span>Un petit mot pour nous</span>
+          <textarea name="message" rows="3"></textarea>
+        </label>
+
+        <!-- anti-spam : champ invisible -->
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <p class="form-error" id="form-error" role="alert" hidden></p>
+
+        <button type="submit" class="btn btn--primary btn--block" id="rsvp-submit">Envoyer ma réponse</button>
+      </form>
+
+      <div class="thanks" id="thanks" hidden tabindex="-1">
+        <p class="script thanks__script">Merci</p>
+        <p id="thanks-text">Votre réponse a bien été enregistrée.</p>
+        <button type="button" class="btn btn--ghost" id="rsvp-again">Modifier ou ajouter une réponse</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="ornament" aria-hidden="true"><span></span><b></b><span></span></div>
+    <p class="footer__names">Prénom <span class="script">&amp;</span> Prénom</p>
+    <p class="footer__date">08 · 07 · 2027</p>
+    <!-- ✏️ Contact -->
+    <p class="footer__contact">Une question ? <a href="mailto:contact@exemple.fr">Écrivez-nous</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
